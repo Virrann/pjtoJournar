@@ -58,7 +58,7 @@ header ul li{
     display: inline-block;
 }
 
-li.atual{
+.atual{
     background-color: #e10039;
 }
 
