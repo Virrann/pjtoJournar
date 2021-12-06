@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('trebuchet-ms-bold.ttf') format('truetype');
+  }
+*{
+    margin: 0;
+    padding: 0;
+    order: 2;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+/*
+.content{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}*/
+
+header{
+    background: #294c71 url(../img/fundo.png) repeat-x bottom left;
+    display: block;
+    order: 1;
+    height: 250px;
+}
+
+header div{
+    background:url(../img/detalhe-topo.png) no-repeat right top;
+    background-size: 190px 193.2px ;
+    max-width: 800px;
+    width: 100%;
+    height: 233px;
+    font-size: 0;
+    margin: auto;
+}
+
+header img{
+    height: 75px;
+    margin: 30px 0;
+}
+
+header ul{
+    width: 85%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header ul li{
+    text-align: center;
+    width: 14.28%;
+    background: #b0002f url(../img/divisor.png) repeat-y;
+    display: inline-block;
+}
+
+li.atual{
+    background-color: #e10039;
+}
+
+header #first{
+    background-image: none;
+}
+
+header a{
+    /*background-color: #b0002f;*/
+    font-size: 15px;
+    display: block;
+    color: white;
+    padding: 10px;
+}
+
+header a:hover{
+    color: black;
+}
